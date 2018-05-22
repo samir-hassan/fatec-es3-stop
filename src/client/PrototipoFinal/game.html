@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="header text-right">
+        <div style="padding-top: 85px; padding-right: 50px;">
+            <h3 class="styled" style="display: inline; padding-right: 15px;">Player 1</h3>
+            <a href="index.html" class="btn btn-sm btn-danger" style="vertical-align: bottom;">Sair</a>
+        </div>
+    </div>
+    <div class="content text-center">
+        <h2 class="title">Stop Online</h2>
+        <h4 style="padding-top: 20px;">
+            Rodada: <span>3/3</span> &nbsp;&nbsp;&nbsp;&nbsp; Letra: <span>A</span> &nbsp;&nbsp;&nbsp;&nbsp; Tempo: <span id="demo"></span>
+        </h4>
+        <div style="text-align: left; padding-top: 20px;">
+            <table class="table table-bordered table-hover table-striped">
+                <thead class="thead-light">
+                    <tr>
+                        <th style="width: 10%;"></th>
+                        <th>Nome</th>
+                        <th>Fruta</th>
+                        <th>Cor</th>
+                        <th>CEP</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" class="form-control" value="C" disabled="disabled"></td>
+                        <td><input type="text" class="form-control" value="Camila" disabled="disabled"></td>
+                        <td><input type="text" class="form-control" value="Carambola" disabled="disabled"></td>
+                        <td><input type="text" class="form-control" value="Castanho" disabled="disabled"></td>
+                        <td><input type="text" class="form-control" value="Canadá" disabled="disabled"></td>
+                        <td>30,00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control" value="B" disabled="disabled"></td>
+                        <td><input type="text" class="form-control" value="Bruno" disabled="disabled"></td>
+                        <td><input type="text" class="form-control" value="Banana" disabled="disabled"></td>
+                        <td><input type="text" class="form-control" value="Bege" disabled="disabled"></td>
+                        <td><input type="text" class="form-control" value="Brasil" disabled="disabled"></td>
+                        <td>35,00</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control" value="A" disabled="disabled"></td>
+                        <td><input type="text" class="form-control" placeholder="A..."></td>
+                        <td><input type="text" class="form-control" placeholder="A..."></td>
+                        <td><input type="text" class="form-control" placeholder="A..."></td>
+                        <td><input type="text" class="form-control" placeholder="A..."></td>
+                        <td>00,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <a type="button" class="btn btn-primary btn-lg" style="font-size: 2em; margin-top: 10px;" href="./index.html">STOP!</a>
+
+        <div class="row">
+            <div class="col-md-3 divPlayers" style="padding: 0;">
+                <div class="card text-white bg-primary">
+                    <div class="card-header">Jogador 1 <img src="img/Ban.png" style="   width: 32px;float: right;"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Pontos: 20</h5>
+                    </div>
+                </div>
+
+                <div class="divPowers">
+                    <img src="img/Power1.png" class="pw1" alt="Smiley face" height="100" width="140">
+                    <img src="img/Power2.png" class="pw2" alt="Smiley face" height="120" width="160">
+                </div>
+
+
+            </div>
+
+            <div class="col-md-3 divPlayers" style="padding: 0;">
+                <div class="card text-white bg-primary">
+                    <div class="card-header">Jogador 2 <img src="img/Ban.png" style="   width: 32px;float: right;"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Pontos: 10</h5>
+                    </div>
+                </div>
+
+                <div class="divPowers">
+                    <img src="img/Power1.png" class="pw1" alt="Smiley face" height="100" width="140">
+                    <img src="img/Power2.png" class="pw2" alt="Smiley face" height="120" width="160">
+                </div>
+            </div>
+
+            <div class="col-md-3 divPlayers" style="padding: 0;">
+                <div class="card text-white bg-primary">
+                    <div class="card-header">Jogador 3 <img src="img/Ban.png" style="   width: 32px;float: right;"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Pontos: 30</h5>
+                    </div>
+                </div>
+
+                <div class="divPowers">
+                    <img src="img/Power1.png" class="pw1" alt="Smiley face" height="100" width="140">
+                    <img src="img/Power2.png" class="pw2" alt="Smiley face" height="120" width="160">
+                </div>
+            </div>
+
+            <div class="col-md-3 divPlayers" style="padding: 0;">
+                <div class="card text-white bg-primary">
+                    <div class="card-header">Jogador 4 <img src="img/Ban.png" style="   width: 32px;float: right;"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Pontos: 25</h5>
+                    </div>
+                </div>
+
+                <div class="divPowers">
+                    <img src="img/Power1.png" class="pw1" alt="Smiley face" height="100" width="140">
+                    <img src="img/Power2.png" class="pw2" alt="Smiley face" height="120" width="160">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer"></div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+        // Set the date we're counting down to
+        var today = new Date();
+        today.setMinutes(today.getMinutes() + 1);
+
+        var countDownDate = today.getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+            // Get todays date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now an the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            document.getElementById("demo").innerHTML = seconds + "s ";
+
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "--";
+            }
+        }, 1000);
+
+    </script>
+
+</body>
+
+</html>

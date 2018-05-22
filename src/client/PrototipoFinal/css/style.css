@@ -1,0 +1,52 @@
+body {
+    background-color: #b7d2ff;
+}
+
+.header {
+    background: url("../img/main-top.png");
+    height: 65px;
+}
+
+.content {
+    background: url("../img/main-bg.png") repeat;
+    padding: 5%;
+}
+
+.footer {
+    background: url("../img/main-footer.png");
+    height: 67px;
+}
+
+.title {
+    font-family: 'Pacifico';
+    font-size: 3em;
+    color: #3280ff;
+}
+
+h3.styled {
+    font-family: 'Pacifico';
+}
+
+.card {
+    margin: 30px;
+    text-align: left;
+}
+
+.pw1 {
+    position: absolute;
+    margin-left: -20px;
+}
+
+.pw2 {
+    position: absolute;
+    margin-left: -140px;
+    margin-top: -15px;
+}
+
+.divPowers {
+    margin-top: -38px;
+}
+
+.divPlayers {
+    height: 250px;
+}
